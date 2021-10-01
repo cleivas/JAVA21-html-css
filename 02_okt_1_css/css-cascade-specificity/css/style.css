@@ -1,0 +1,13 @@
+/* en class är mer spefifik än ett element */
+.specificity{
+    background-color: deeppink;
+}
+
+/* Regeln som kommer sist i dokumentet "vinner" */
+p{
+    background-color: blueviolet;
+}
+p{
+    background-color: coral;
+}
+

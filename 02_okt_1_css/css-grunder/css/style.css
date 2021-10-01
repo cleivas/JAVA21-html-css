@@ -1,0 +1,28 @@
+/*Det här är en kommentar*/
+
+h1{
+    color:olivedrab; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
+p{
+    font-family: fantasy;
+    color: #543450;
+}
+h2{
+    color: hsl(0, 89%, 34%);
+}
+h3{
+    color: rgb(73, 3, 100);
+}
+.skyblue{
+    background-color: lightskyblue;
+}
+/* alla h3 och li element */
+h3, li{
+    color: green;
+}
+/* Alla li-element inuti alla ol-element */
+ol li{
+    font-size: 2rem;
+}

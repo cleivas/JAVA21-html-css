@@ -1,0 +1,28 @@
+/* universal selector väljar ALLA element */
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-size: 0;
+}
+a{
+    /* border: 1px solid gray; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-decoration: none;
+
+    background-color: indigo;
+    color: lightgreen;
+    /* padding: 1rem; */
+    display: inline-block;
+
+    height: 200px;
+    width: 20%;
+}
+a:hover{
+    background-color: lightgreen;
+    color: indigo; 
+}
