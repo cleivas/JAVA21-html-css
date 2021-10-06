@@ -8,19 +8,25 @@ ul{
     padding: .5rem;
     height: 300px;
 
-
+    /* Berättar att det här är en flex container */
     display: flex;
     /* flex-direction: row;
     flex-wrap: wrap; */
+    /* raden nedan är samma som de två raderna ovan */
     flex-flow: row wrap;
-    justify-content: center;
+
+    /* flyttar alla flex items till slutet på main axis */
+    justify-content: flex-end;
+
+    /* flyttar alla items till start på cross axis. */
     align-items: flex-start;
 }
 
 li{
     border: seagreen 3px solid;
     padding: 1rem;
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    
     /* när flex-direction är row är flex-basis
     bredden. Men den är inte exakt. Kommer vara "typ" 20px */
     /* flex-basis: 20px; */
@@ -28,5 +34,5 @@ li{
 .change-order{
     border: dotted 3px blueviolet;
     order: -1;
-    flex-grow: 2;
+    /* flex-grow: 2; */
 }
