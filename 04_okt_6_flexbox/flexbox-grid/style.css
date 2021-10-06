@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 1rem;
+}
+
+.col-1{
+    border: 2px solid blueviolet;
+    background-color: rgb(211, 181, 238);
+
+    flex-basis: 21%;
+    margin: 0 2%;
+}
+.col-2{
+    border: 2px solid blue;
+    background-color: rgb(191, 191, 255);
+
+    flex-basis: 46%;
+    margin: 0 2%;
+}
+.col-3{
+    border: 2px solid orangered;
+    background-color: rgb(245, 173, 147);
+    flex-basis: 71%;
+    margin: 0 2%;
+}
+.col-4{
+    border: 2px solid green;
+    background-color:  rgb(188, 250, 188);
+
+    flex-basis: 96%;
+    margin: 0 2%;
+}
+
+.img-too-big{
+    width: 100%;
+}
+
+

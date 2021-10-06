@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    border: 3px solid salmon;
+    padding: .5rem;
+    height: 300px;
+
+
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+li{
+    border: seagreen 3px solid;
+    padding: 1rem;
+    flex-grow: 1;
+    /* när flex-direction är row är flex-basis
+    bredden. Men den är inte exakt. Kommer vara "typ" 20px */
+    /* flex-basis: 20px; */
+}
+.change-order{
+    border: dotted 3px blueviolet;
+    order: -1;
+    flex-grow: 2;
+}
