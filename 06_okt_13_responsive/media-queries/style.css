@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* mobile first */
+div{
+    background-color: red;
+    min-height: 100vh;
+}
+
+/* för tablet */
+@media (min-width: 400px){
+    div{
+        background-color: orange;
+    }
+}
+
+/* desktop */
+@media (min-width: 850px){
+    div{
+        background-color: yellow;
+    }
+}

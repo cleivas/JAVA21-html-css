@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+/* mobile first */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+  display: flex;
+  flex-flow: row wrap;
+}
+img{
+ width: 100%;
+}
+
+figure{
+  border: 1px black solid;
+  padding: .5rem;
+  margin-bottom: 2rem;
+
+  flex-basis: 100%;
+}
+
+/* tablet breakpoint */
+@media (min-width: 500px){
+  figure{
+    flex-basis: 50%;
+  }
+}
+
+/* desktop breakpoint */
+@media (min-width: 850px) {
+  figure{
+    flex-basis: 33%;
+  }
+}
